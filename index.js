@@ -2,11 +2,15 @@
 var app = require('./config/server');
 var models = require('./app/models');
 var debug = require('debug')('express-sequelize');
+
 /* parametrizar a porta de escuta */
 models.sequelize.sync().then(function() {
-	app.listen(3000);
+	var server = app.listen(3000);
 	app.on('error', onError);
 	app.on('listening', onListening);
+	var io = require('socket.io').listen(server);
+	app.set('io', io);
+	app.set('io', io);
 });
 
 function onError(error) {
