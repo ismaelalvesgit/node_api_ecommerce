@@ -25,7 +25,7 @@
     "nodemailer": "^6.3.0",
     "nodemailer-express-handlebars": "^3.1.0",
     "sequelize": "^5.10.3",
-    "socket.io": "^2.2.0"
+    "socket.io": "^2.5.0"
   },
   "devDependencies": {
     "sequelize-cli": "^5.5.0"
