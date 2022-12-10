@@ -15,7 +15,7 @@
     "cors": "^2.8.5",
     "dotenv": "^8.0.0",
     "ejs": "^2.6.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-generator": "^4.16.1",
     "express-sequelize": "0.0.4",
     "express-validator": "^4.3.0",
