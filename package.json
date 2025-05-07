@@ -20,7 +20,7 @@
     "express-sequelize": "0.0.4",
     "express-validator": "^4.3.0",
     "firebase": "^6.3.3",
-    "firebase-admin": "^8.3.0",
+    "firebase-admin": "^11.4.1",
     "mysql2": "^1.6.5",
     "nodemailer": "^6.3.0",
     "nodemailer-express-handlebars": "^3.1.0",
